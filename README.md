@@ -1,5 +1,5 @@
 # MobileViG
-MobileViG: Graph-Based Sparse Attention for Mobile Vision Applications
+MobileViG: Graph-Based Sparse Attention for Mobile Vision Applications [PDF](https://openaccess.thecvf.com/content/CVPR2023W/MobileAI/papers/Munir_MobileViG_Graph-Based_Sparse_Attention_for_Mobile_Vision_Applications_CVPRW_2023_paper.pdf)
 
 Mustafa Munir and William Avery
 
