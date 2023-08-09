@@ -112,3 +112,15 @@ python -m torch.distributed.launch --nproc_per_node=4 --nnodes=1 --node_rank 0 t
 ```
 
 
+### Citation
+```
+@InProceedings{Munir_2023_CVPR,
+    author    = {Munir, Mustafa and Avery, William and Marculescu, Radu},
+    title     = {MobileViG: Graph-Based Sparse Attention for Mobile Vision Applications},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2023},
+    pages     = {2210-2218}
+}
+```
+
