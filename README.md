@@ -1,7 +1,10 @@
 # MobileViG
-MobileViG: Graph-Based Sparse Attention for Mobile Vision Applications [PDF](https://openaccess.thecvf.com/content/CVPR2023W/MobileAI/papers/Munir_MobileViG_Graph-Based_Sparse_Attention_for_Mobile_Vision_Applications_CVPRW_2023_paper.pdf)
+## MobileViG: Graph-Based Sparse Attention for Mobile Vision Applications
+[PDF](https://openaccess.thecvf.com/content/CVPR2023W/MobileAI/papers/Munir_MobileViG_Graph-Based_Sparse_Attention_for_Mobile_Vision_Applications_CVPRW_2023_paper.pdf) | [Arxiv](https://arxiv.org/abs/2307.00395)
 
-Mustafa Munir and William Avery
+[GAIN 2024 Best Poster Award](https://sites.utexas.edu/gain/gain-2024/)
+
+Mustafa Munir, William Avery, and Radu Marculescu
 
 # Overview
 This repository contains the source code for MobileViG: Graph-Based Sparse Attention for Mobile Vision Applications
@@ -112,15 +115,4 @@ python -m torch.distributed.launch --nproc_per_node=4 --nnodes=1 --node_rank 0 t
 ```
 
 
-### Citation
-```
-@InProceedings{Munir_2023_CVPR,
-    author    = {Munir, Mustafa and Avery, William and Marculescu, Radu},
-    title     = {MobileViG: Graph-Based Sparse Attention for Mobile Vision Applications},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
-    month     = {June},
-    year      = {2023},
-    pages     = {2210-2218}
-}
-```
 
