@@ -114,5 +114,16 @@ For example:
 python -m torch.distributed.launch --nproc_per_node=4 --nnodes=1 --node_rank 0 test.py configs/mask_rcnn_mobilevig_m_fpn_1x_coco.py --checkpoint ../Pretrained_Models_MobileViG/Detection/det_mobilevig_m_62_8.pth --eval bbox --work-dir detection_results/ --launcher pytorch > detection_results/mobilevig_m_run_evaluation.txt
 ```
 
+### Citation
+```
+@InProceedings{mobilevig2023,
+    author    = {Munir, Mustafa and Avery, William and Marculescu, Radu},
+    title     = {MobileViG: Graph-Based Sparse Attention for Mobile Vision Applications},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2023},
+    pages     = {2211-2219}
+}
+```
 
 
