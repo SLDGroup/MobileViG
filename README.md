@@ -115,6 +115,9 @@ python -m torch.distributed.launch --nproc_per_node=4 --nnodes=1 --node_rank 0 t
 ```
 
 ### Citation
+
+If our code or models help your work, please cite MobileViG (CVPRW 2023), MobileViGv2 (CVPRW 2024), and GreedyViG (CVPR 2024):
+
 ```
 @InProceedings{mobilevig2023,
     author    = {Munir, Mustafa and Avery, William and Marculescu, Radu},
@@ -126,4 +129,24 @@ python -m torch.distributed.launch --nproc_per_node=4 --nnodes=1 --node_rank 0 t
 }
 ```
 
+```
+@InProceedings{MobileViGv2_2024,
+    author    = {Avery, William and Munir, Mustafa and Marculescu, Radu},
+    title     = {Scaling Graph Convolutions for Mobile Vision},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2024},
+    pages     = {5857-5865}
+}
+```
 
+```
+@InProceedings{GreedyViG_2024_CVPR,
+    author    = {Munir, Mustafa and Avery, William and Rahman, Md Mostafijur and Marculescu, Radu},
+    title     = {GreedyViG: Dynamic Axial Graph Construction for Efficient Vision GNNs},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {6118-6127}
+}
+```
